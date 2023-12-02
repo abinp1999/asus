@@ -1,0 +1,287 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/nav.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/tt-norms-pro" rel="stylesheet">
+    <title>ASUS</title>
+</head>
+
+<body>
+    <header>
+        <div class="topfooter d-none d-lg-block">
+            <div class="d-flex justify-content-between align-items-center container-xl">
+                <div>
+                    <img src="assets/images/svg/asus-rog-1-logo-svgrepo-com.svg" class="pe-4" alt="Rog">|
+                    <img src="assets/images/svg/ProArt.svg" class="px-4" alt="ProArt">|
+                    <img src="https://www.asus.com/media/Odin/images/header/IoT_normal.svg" class="ps-4 " alt="AsusIot">
+                </div>
+                <div>funtura</div>
+            </div>
+        </div>
+        <div id="myNav" class="overlay zindex-dropdown">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content w-100 h-100">
+                <p></p>
+            </div>
+        </div>
+        <div class="m-3 d-lg-none">Asus</div>
+        <div class="d-flex justify-content-between d-lg-none fixed-top w-100 bg-light">
+            <div>
+                <img src="assets/images/svg/menu-hamburger-svgrepo-com.svg" alt="Menu" style="width: 20px;" onclick="openNav()"
+                    class="m-3"></img>
+            </div>
+            <div>
+                <img src="assets/images/svg/asus-ar21.svg" alt="Asus">
+            </div>
+            <div>
+                <img src="assets/images/svg/search-address-book-svgrepo-com.svg" style="width: 18px;" class="my-3" alt="search">
+                <img src="assets/images/svg/cart-svgrepo-com.svg" style="width: 20px;" class="m-3" alt="cart">
+            </div>
+        </div>
+        <div class="container-lg d-none d-lg-flex justify-content-between align-items-center menu px-4  w-100">
+            <img src="assets/images/svg/asus-ar21.svg" style="width: 110px;" class="mb-2" alt="asus">
+            <p class="ps-2 pe-1"> mobile </p>
+            <p class="px-1">Laptop</p>
+            <p class="px-1">Desktop / Display</p>
+            <p class="px-1">Motherboards / Components</p>
+            <p class="px-1">Networking / IoT / Servers</p>
+            <p class="px-1">Accessories</p>
+            <p class="px-1">Business PCs / Perherals</p>
+            <p class="px-1">Support</p>
+            <p class="ps-1 pe-2">Shop</p>
+            <div class="d-flex mb-2">
+                <img src="assets/images/svg/search-address-book-svgrepo-com.svg" style="width: 15px;" class="mx-2" alt="search">
+                <img src="assets/images/svg/cart-svgrepo-com.svg" style="width: 16px;" class="mx-2" alt="cart">
+                <img src="assets/images/svg/profile-round-1342-svgrepo-com.svg" style="width: 16px;" class="mx-2" alt="profile">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="mb-2">
+            <!-- Slide show large-->
+            <div id="large" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#large" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#large" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#large" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#large" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#large" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#large" data-bs-slide-to="5"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/items/large/large_top.jpg" alt="Rog 2023" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/items/large/largerog.jpg" alt="Rog" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/items/large/largeasus.jpg" alt="asus" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/items/large/largetuf.jpg" alt="Tuf" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/items/large/largebusiness.png" alt="building" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/items/large/largegame.jpg" alt="Call of duty" class="d-block w-100">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#large" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#large" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <!-- slideshow small -->
+            <div id="small" class="carousel slide d-lg-none" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#small" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#small" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#small" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#small" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#small" data-bs-slide-to="4"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/small/small1st.jpg" alt="Rog 2023" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/small/small2nd.jpg" alt="Rog" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/small/small3rd.jpg" alt="asus" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/small/small4th.jpg" alt="Tuf" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/small/small5th.jpg" alt="building" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/small/small6th.jpg" alt="Call of duty" class="d-block w-100">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#small" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#small" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        <section class="pb-2">
+            <img src="assets/images/items/large/large-1st.jpg" alt="lap" class="w-100 d-none d-lg-flex">
+            <img src="assets/images/small/smallasus.jpg" alt="lap" class="w-100  d-lg-none">
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-lg-6 p-1">
+                    <img src="assets/images/items/large/1stimg.jpg" alt="lap" class="w-100 d-block h-100">
+                </div>
+                <div class="col-lg-6 p-1">
+                    <img src="assets/images/items/large/2ndimg.jpg" alt="lap" class="w-100 d-block h-100">
+                </div>
+                <div class="col-lg-6 p-1">
+                    <img src="assets/images/items/large/3rdimg.jpg" alt="lap" class="w-100 d-block h-100">
+                </div>
+                <div class="col-lg-6 p-1">
+                    <img src="assets/images/items/large/4thimg.jpg" alt="lap" class="w-100 d-block h-100">
+                </div>
+            </div>
+        </section>
+
+            <div class="mt-5 mb-2 d-flex flex-column align-items-center">
+                <h2>Hot Deals</h2>
+                <div class="d-flex">
+                    <div class="p-2 mx-4 d-flex flex-column align-items-center">
+                        <img src="assets/images/svg/laptop.svg" alt="laptop">
+                        <p>Laptop</p>
+                    </div>
+                    <div class="p-2 mx-4 d-flex flex-column align-items-center">
+                        <img src="assets/images/svg/mobile.svg" alt="Mobile">
+                        <p>Mobile</p>
+                    </div>
+                    <div class="p-2 mx-4 d-none d-md-flex flex-column align-items-center">
+                        <img src="assets/images/svg/desktop.svg" alt="Desktop">
+                        <p>Desktop and AIOs</p>
+                    </div>
+                    <div class="p-2 mx-4 d-none d-md-flex flex-column align-items-center">
+                        <img src="assets/images/svg/deals.svg" alt="Deals">
+                        <p>See All Deals</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light pt-3">
+        <div class="row d-flex container-lg justify-content-center w-100" style="font-size: 12px;">
+            <div class=" col-6 col-lg-3  px-5">
+                <p><strong>Shop And Learn</strong> </p>
+                <p><strong>Mobile</strong></p>
+                <p>phone</p>
+                <p><Strong>Laptop</Strong></p>
+                <p>For Home</p>
+                <p>For Work</p>
+                <p>For Creators</p>
+                <p>For Students</p>
+                <p>For Gaming</p>
+                <p><strong>Desktop / Display</strong></p>
+                <p>Gaming Tower PCs</p>
+                <p>All-in-One PCs</p>
+                <p>Monitors</p>
+                <p>Mini PCs</p>
+                <p>Workstations</p>
+            </div>
+            <div class="col-6 col-lg-3 px-5">
+                <p></p>
+                <p>Projectors</p>
+                <p><strong>Motherboards / Components</strong></p>
+                <p>Motherboards</p>
+                <p>Gaming Case</p>
+                <p>Cooling</p>
+                <p>Graphics Card</p>
+                <p>Sound Cards</p>
+                <p>Optical Drives</p>
+                <p><strong>Networking / IoT / Servers</strong></p>
+                <p>Wifi 6</p>
+                
+                <p>Wifi Routers</p>
+                <p>Whole Home Mesh Wifi System</p>
+            </div>
+            <div class="col-6 col-lg-3 px-5">
+                <p><strong>Learn More</strong></p>
+                <p>Asus Design Center</p>
+                <p>ASUSPRO</p>
+                <p>Automotive Solutions</p>
+                <p>Product Guide</p>
+                <p>AVC Licensing Notice</p>
+                <p><strong>Support</strong></p>
+                <p>Check Repair Status</p>
+                <p>Find Service Location</p>
+                <p>Product Registration</p>
+                <p>Check Warranty Status</p>
+                <p>Email Us</p>
+                <p>Call Us</p>
+                <p>Sales Terms & Conditions</p>
+                <p>Security Advisory</p>
+                <p>Asus Support Videos</p>
+                <p>MyASUS</p>
+                <p>WhatsApp</p>
+                <p>Chat</p>
+                <p>Where To Buy(find nearby store)</p>
+            </div>
+            <div class=" col-6 col-lg-3 px-5">
+                <p><Strong>About Us </Strong></p>
+                <p>About ASUS</p>
+                <p>News</p>
+                <p>Investor Relations</p>
+                <p>About CSR for global</p>
+                <p>E-Waste page</p>
+                <p>Press Room</p>
+                <p>ASUSTOR Inc.</p>
+                <p>ASUS Cloud Corperation</p>
+                <p>UniMax Electronics Inc.</p>
+            </div>
+        </div>
+        <div class="d-flex container-lg justify-content-center w-100 border-bottom pb-3">
+            <img src="assets/images/svg/facebook.png" alt="facebook" style="width:30px;" class="m-2">
+            <img src="assets/images/svg/twitter.png" alt="twitter" style="width: 30px;" class="m-2">
+            <img src="assets/images/svg/youtube.png" alt="youtube" style="width: 30px;" class="m-2">
+            <img src="assets/images/svg/instagram.png" alt="instagram" style="width:30px;" class="m-2">
+            <img src="assets/images/svg/whatsapp.png" alt="whatsapp" style="width:30px;" class="m-2">
+
+        </div>
+        <div class="d-block d-md-flex justify-content-between container-lg pt-3 pb-4 "style="font-size: 12px;">
+            <div class="d-flex">
+                <p class="pe-3">ASUSTeK Computer Inc. All rights reserved</p>
+                <p class="pe-2">Terms of Use Notice</p> |
+                <p class="ps-2">Privacy Policy</p>
+            </div>
+            <div class="d-flex ">
+                <img src="assets/images/svg/globe.png" alt="globe" style="width:15px;height: 15px;" class="m-2">
+                <p class="pt-1">India / English</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
